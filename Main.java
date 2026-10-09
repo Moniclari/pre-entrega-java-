@@ -40,7 +40,7 @@ public class Main {
                     default -> System.out.println("Opción inválida. Elija un número del 1 al 6.");
                 }
             } catch (ProductoNoEncontradoException | StockInsuficienteException e) {
-                // capturamos las excepciones personalizadas
+                
                 System.out.println(e.getMessage());
             } catch (IllegalArgumentException e) {
                 // Validador de datos genericos invalidos
