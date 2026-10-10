@@ -55,11 +55,11 @@ public class Main {
     }
 
     private static void cargarDatosDePrueba(ProductoService service) {
-        service.guardar(new Producto("Café molido 500g", 4500, 30, "Bebidas"));
-        service.guardar(new Producto("Yerba mate 1kg", 3200, 50, "Bebidas"));
-        service.guardar(new Producto("Galletitas dulces", 1850, 100, "Almacén"));
-        service.guardar(new Producto("Aceite de oliva 500ml", 6700, 20, "Almacén"));
-        service.guardar(new Producto("Chocolate amargo 70%", 2900, 15, "Golosinas"));
+        service.guardar(new Producto("Fideos 500g", 4500, 40, "Almacen"));
+        service.guardar(new Producto("Te  50 saquitos", 2800, 50, "Bebidas"));
+        service.guardar(new Producto("Pan lactal", 3850, 60, "Panaderia"));
+        service.guardar(new Producto("Leche larga visa 1l", 2100, 40, "Lacteos"));
+        service.guardar(new Producto("Manteca 250gr", 5100, 20, "Lacteos2"));
         System.out.println("✔ Se cargaron 5 productos de prueba.\n");
     }
 }
