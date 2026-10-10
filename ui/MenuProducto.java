@@ -54,13 +54,15 @@ public class MenuProducto {
 
     public void agregarProducto() {
         System.out.println("--- Nuevo producto ---");
+        System.out.println("Ingrese nombre del producto");
         String nombre = Validador.leerTexto(sc, "Nombre: ");
+        System.out.println("Ingrese precio del producto");
         double precio = Validador.leerDouble(sc, "Precio: ");
+        System.out.println("Ingrese stock del producto");
         int stock = Validador.leerEntero(sc, "Stock: ");
+        System.out.println("Ingrese la categoria del producto");
         String categoria = Validador.leerTexto(sc, "Categoría: ");
 
-         
-        
 
         // Construimos el producto
         Producto p = new Producto(nombre,precio,stock,categoria);

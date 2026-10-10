@@ -25,7 +25,8 @@ public class ProductoService {
 
         p.setId(contadorId);
         contadorId++;
-        
+
+        // guardo el producto
         productos.add(p);
 
         return p;

@@ -37,6 +37,7 @@ public class Validador {
             System.out.println(mensaje);
             try{
                 int valor = sc.nextInt();
+                sc.nextLine();
                 return valor;
             }catch (InputMismatchException e){
                 System.out.println("Debe ingresar un número entero. Intente nuevamente.");
@@ -50,7 +51,6 @@ public class Validador {
             System.out.println(mensaje);
             try{
                 double valor = sc.nextDouble();
-                sc.nextLine();
                 return valor;
             }catch (Exception e){
                 System.out.println("Debe ingresar un número decimal");

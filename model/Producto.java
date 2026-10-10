@@ -61,20 +61,19 @@ public class Producto {
         this.categoria = categoria;
     }
 
-    @Override
-    public String toString(){
+   public String toString() {
         return "ID: " + id +
                 " | " + nombre +
                 " | $" + precio +
                 " | Stock: " + stock +
-                " | Categoria: " + categoria;
+                " | Categoría: " + categoria;
     }
 
-    public void mostrar(){
+    public void mostrar() {
         System.out.println("ID: " + id +
-            " | " + nombre +
-            " | $" + precio +
-            " | Stock: " + stock +
-            " | Categoria: " + categoria);
+                " | " + nombre +
+                " | $" + precio +
+                " | Stock: " + stock +
+                " | Categoría: " + categoria);
     }
 }
